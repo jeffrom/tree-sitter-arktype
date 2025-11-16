@@ -6,6 +6,11 @@
       (string_fragment) @injection.content))
 
     (arguments
+      (array
+        (string
+          (string_fragment) @injection.content)))
+
+    (arguments
       (object
         (pair
           key: ([(property_identifier) (string)]
